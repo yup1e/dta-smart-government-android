@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.VerificationActivity"
+    tools:context=".Activity.Verification"
     android:orientation="vertical">
 
     <include layout="@layout/actionbar"/>
@@ -40,27 +40,27 @@
         android:layout_marginBottom="29dp"
         android:gravity="center_horizontal"/>
 
-    <com.chaos.view.PinView
-        android:id="@+id/pv_OTPcode"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:itemWidth="45dp"
-        app:itemHeight="74dp"
-        app:itemCount="6"
-        app:itemRadius="5dp"
-        app:itemSpacing="10dp"
-        app:lineColor="@color/grey3"
-        android:itemBackground="@color/white"
-        style="@style/PinWidget.PinView"
-        android:inputType="number"
-        android:cursorVisible="true"
-        app:hideLineWhenFilled="true"
-        android:fontFamily="@font/poppins_regular"
-        android:textSize="24sp"
-        android:textColor="@color/dark1"
-        android:textAlignment="center"
-        android:includeFontPadding="false"
-        android:layout_gravity="center"/>
+<!--    <com.chaos.view.PinView-->
+<!--        android:id="@+id/pv_OTPcode"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:itemWidth="45dp"-->
+<!--        app:itemHeight="74dp"-->
+<!--        app:itemCount="6"-->
+<!--        app:itemRadius="5dp"-->
+<!--        app:itemSpacing="10dp"-->
+<!--        app:lineColor="@color/grey3"-->
+<!--        android:itemBackground="@color/white"-->
+<!--        style="@style/PinWidget.PinView"-->
+<!--        android:inputType="number"-->
+<!--        android:cursorVisible="true"-->
+<!--        app:hideLineWhenFilled="true"-->
+<!--        android:fontFamily="@font/poppins_regular"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textColor="@color/dark1"-->
+<!--        android:textAlignment="center"-->
+<!--        android:includeFontPadding="false"-->
+<!--        android:layout_gravity="center"/>-->
 
     <TextView
         android:layout_width="match_parent"
