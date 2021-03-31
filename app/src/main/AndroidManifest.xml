@@ -18,7 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.Main"></activity>
+        <activity
+            android:name=".Activity.Login"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity android:name=".Activity.Register"></activity>
     </application>
 
 </manifest>
